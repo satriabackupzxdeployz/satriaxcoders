@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/dashboard", "destination": "/dashboard.html" },
+    { "source": "/api/(.*)", "destination": "/api/$1" }
+  ],
+  "env": {
+    "FIREBASE_SERVICE_ACCOUNT": "@firebase-service-account",
+    "JWT_SECRET": "@jwt-secret"
+  }
+}
