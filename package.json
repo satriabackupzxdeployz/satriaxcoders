@@ -1,0 +1,17 @@
+{
+  "name": "coders",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step'"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.11.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
